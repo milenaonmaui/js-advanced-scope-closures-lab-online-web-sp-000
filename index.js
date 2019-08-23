@@ -10,7 +10,18 @@ function produceDrivingRange(range){
   }
 }
 
+function produceTipCalculator(tipPercent) {
+  return function calculateTip(fare){
+    return fare*tipPercent
+  }
+}
 
+let driverId = 0;
+function createDriver(driverId) {
+  function generateDriver(name){
+    
+  }
+}
 
 
 
