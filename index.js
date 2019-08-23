@@ -22,14 +22,16 @@ function createDriver() {
   let driverId = 0;
   
   function generateDriver(driverId){
-    return class Driver {
-    constructor(driverId){
-     this.id = ++driverId;
+    class Driver {
+       constructor(driverId){
+          this.id = ++driverId;
      
-    }
+       }
+     }
+     return Driver
   }
-    
-  }
+  
+  return generateDriver;
 }
 
 
