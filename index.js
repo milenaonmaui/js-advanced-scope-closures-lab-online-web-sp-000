@@ -31,7 +31,7 @@ function createDriver() {
      return Driver
   }
   
-  return generateDriver;
+  return generateDriver();
 }
 
 
