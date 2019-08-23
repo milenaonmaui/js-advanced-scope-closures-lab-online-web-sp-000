@@ -10,4 +10,8 @@ function produceDrivingRange(range){
   }
 }
 
-function 
+function produceTipCalculator(tipPercent) {
+  return calculateTip(fare){
+    return fare*tipPercent
+  }
+}
