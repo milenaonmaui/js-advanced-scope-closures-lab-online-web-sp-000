@@ -9,3 +9,5 @@ function produceDrivingRange(range){
        
   }
 }
+
+function 
