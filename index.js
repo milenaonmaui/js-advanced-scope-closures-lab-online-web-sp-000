@@ -1,5 +1,11 @@
 function produceDrivingRange(range){
   return function whithinRange(street1, street2){
-    let str1 = 
+    let dist = street2.slice(0,2)-street1.slice(0,2)
+    if (dist > range) {
+      return `${dist-range} blocks out of range`
+    } else {
+      return `whithin range by ${range - dist}`
+    }
+       
   }
 }
