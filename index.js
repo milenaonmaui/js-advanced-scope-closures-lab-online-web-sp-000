@@ -19,8 +19,6 @@ function produceTipCalculator(tipPercent) {
 
 
 function createDriver() {
-  
-  
   function generateDriver(){
     let driverId = 0;
     class Driver {
